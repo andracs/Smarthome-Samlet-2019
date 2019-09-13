@@ -1,4 +1,4 @@
-# Smarthome-Samlet-2019
+# Smarthome samlet 2019
 
 Alle datamatikernes smarthome devices samlet i et hjem! Verdenssensation!
 
