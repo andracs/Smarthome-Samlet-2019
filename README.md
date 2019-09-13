@@ -2,7 +2,8 @@
 
 Alle datamatikernes smarthome devices samlet i et hjem! Verdenssensation!
 
-Fork projektet, og tilføj dit eget smarthome-device, som du udviklede i klassen!
+## Opgave
+Opgaven er, at **du skal forke mit projektet**, og tilføje dit eget smarthome-device, som du udviklede i klassen!
 
 András vil trække alle devices ind i en test-home.
 
