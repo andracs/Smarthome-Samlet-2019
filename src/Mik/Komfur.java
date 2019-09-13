@@ -15,7 +15,7 @@ public class Komfur {
     //if (sunesOvn.drejehastighed<0){
     //sunesOvn.drejeHastighed = 0;
     //}
-    boolean start() {
+    public boolean start() {
         //Tændefunktion til komfuret
         System.out.println(madRet + " er påbegyndt og " + "styrken på kogepladen er " + styrke);
         System.out.println("Tiden er stillet til " + timer/60000 + " minutter");

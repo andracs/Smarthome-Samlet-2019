@@ -2,6 +2,9 @@ import Auto_set_alarm.Alarm;
 import Emil.SmartLock;
 import Henrik.Shitster;
 import Laila.DoerLaas;
+import Lasse_Eksempel.Tandbørste;
+import Lisas_Toothbrush.Lisas_Toothbrush;
+import Mik.Komfur;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)
@@ -45,8 +48,33 @@ public class MainSmartHome {
 
         // DoerLaas demo
         DoerLaas doerLaas = new DoerLaas();
-        System.out.print("Besked fra den Lailas dørlås: ");
+        System.out.print("Besked fra Lailas dørlås: ");
         doerLaas.start();
+
+        // Lasses tandbørste
+        Tandbørste tandbørste = new Tandbørste();
+        System.out.print("Lasses tandbørste er startet:  ");
+        System.out.println(tandbørste.erStartet);
+
+        // Lisas tandbørste
+        Lisas_Toothbrush lisasToothbrush = new Lisas_Toothbrush();
+        System.out.print("Lisas tandbørste er så meget opladet:  ");
+        lisasToothbrush.setBatteriMaaling(23);
+        System.out.println(lisasToothbrush.getBatteriMaaling());
+
+        // Miks komfur
+        System.out.println("Miks komfur siger følgende: ");
+        Komfur komfur = new Komfur();
+        komfur.start();
+        System.out.println();
+
+
+
+        System.out.println("************************************");
+        System.out.println("****** Det er godt gået :)   *******");
+        System.out.println("************************************");
+
+
 
     }
 
