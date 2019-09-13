@@ -1,20 +1,37 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 2019-09-13
- */
+import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
+        System.out.println("Kamera v1.0");
 
-        System.out.println("************************************");
-        System.out.println("****** Smarthome v. 0.2 2019 *******");
-        System.out.println("************************************");
-        System.out.println("");
-        System.out.println("Utroligt!");
-        System.out.println("Alle devices fra klassen samlet i et hjem!");
+        Smartkamera suneskamera = new Smartkamera();
+
+
+        suneskamera.retning = "N";
+        suneskamera.dato = 10.09;
+        suneskamera.tid = 13.33;
+        suneskamera.pivot = 30;
+        suneskamera.latandlong = 300;
+
+        System.out.println("welcome");
+        System.out.println("Enter login info");
+
+        //promt for usr login
+        Scanner login = new Scanner(System.in);
+        double logininfo = login.nextDouble();
+
+
+
+
+        suneskamera.start();
+
+        System.out.println("intast login for at afbryde.");
+
+        Scanner afbryd = new Scanner(System.in);
+        double afbrydning = afbryd.nextDouble();
+
+        suneskamera.stopoptag();
+
 
     }
 }
