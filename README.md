@@ -6,4 +6,4 @@ Fork projektet, og tilføj dit eget smarthome-device, som du udviklede i klassen
 
 András vil trække alle devices ind i en test-home.
 
-!(Smarthome)[https://pbs.twimg.com/media/C2yImk7UoAEzNtq.jpg]
+![Smarthome](https://pbs.twimg.com/media/C2yImk7UoAEzNtq.jpg)
