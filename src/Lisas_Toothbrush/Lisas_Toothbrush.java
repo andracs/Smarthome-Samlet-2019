@@ -42,7 +42,7 @@ public class Lisas_Toothbrush {
     }
 
     public static void setAntalBoersteHaar(int antalBoersteHaar) {
-        Tandbørste.antalBoersteHaar = antalBoersteHaar;
+        Lisas_Toothbrush.antalBoersteHaar = antalBoersteHaar;
     }
 
     //_______________________________________________________________________
@@ -56,12 +56,14 @@ public class Lisas_Toothbrush {
 
     boolean erStartet;
 
+/*
     if (erStartet);
+*/
 
 
-    void start(){
+    /*void start(){
         erStartet = true;
-    }
+    }*/
 
 
 

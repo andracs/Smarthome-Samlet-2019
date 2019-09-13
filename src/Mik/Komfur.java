@@ -1,3 +1,5 @@
+package Mik;
+
 public class Komfur {
     // Objektets egenskaber dvs klassevariabler
     byte styrke; //indstilling af varme 1-10

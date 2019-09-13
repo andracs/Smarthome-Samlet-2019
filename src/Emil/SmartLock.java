@@ -1,29 +1,31 @@
+package Emil;
+
 import java.util.LinkedList;
 import java.util.List;
 
-class SmartLock {
+public class SmartLock {
 
     // Locked state (true = locked, false = unlocked)
     private boolean locked = true;
     // List of device identifiers that are allowed to unlock
     private List<String> whitelist = new LinkedList<>();
 
-    SmartLock() {
+    public SmartLock() {
     }
 
     // Check if the lock is locked or not.
-    boolean isLocked() {
+    public boolean isLocked() {
         return locked;
     }
 
     // Add a device identifier to the whitelist.
-    void addToWhitelist(String device) {
+    public void addToWhitelist(String device) {
         this.whitelist.add(device);
     }
 
     // Attempt to unlock with the passed in device identifier.
     // Unlock if the identifier is found in the whitelist, lock if it isn't.
-    void attemptUnlock(String device) {
+    public void attemptUnlock(String device) {
 
         boolean result = true;
 

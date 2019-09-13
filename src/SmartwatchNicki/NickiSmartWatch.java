@@ -1,3 +1,5 @@
+package SmartwatchNicki;
+
 public class NickiSmartWatch {
     //Instance variables
 
